@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#destin {
+    width: 626px;
+    padding: 32px;
+}
+
+#destin img {
+    margin: 64px;
+    width: 350px;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    color: #3F3D56;
+    font-size: 32px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+h1 span {
+    color:  #EE24FF;;
+    font-weight: bold;
+
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400px;
+    color: #828282;
+    text-align: center;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 25px;
+}
+
+nav {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 42px;
+    border-top: 1px solid #ECEFF2;
+    align-items: center;
+    width: fit-content;
+    padding: 16px 42px 0;
+}
+
+li {
+    font-weight: 700;
+}
+
+a {
+    color: #3F3D56;
+    text-decoration: none;
+}
+
+strong {
+    color: #3F3D56;
+}
